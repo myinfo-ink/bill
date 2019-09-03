@@ -22,4 +22,11 @@
         document.querySelector('#card').style.opacity = '0';
         isForceOpenCard = false;
     }
+
+    /**
+     * share
+     */
+    document.querySelector('#share').onclick = function(){
+        window.open('https://connect.qq.com/widget/shareqq/iframe_index.html?title=Bill Dong&url=https://bill.myinfo.ink&summary=Bill Dong From Beijing, China.&style=201&width=32&height=32');
+    }
 })(window, document);
